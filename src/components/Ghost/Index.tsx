@@ -35,10 +35,6 @@ const ghostRef4 =  useRef<Group>(null)
             ghostRef4.current.position.z =  Math.sin(elapsetime * 0.1) * 8
             ghostRef4.current.position.x = - Math.cos(elapsetime * 0.1) * 8
             ghostRef4.current.rotation.y =  Math.sin(- elapsetime * 0.05 ) *  Math.PI * 2 
-
-            console.log(elapsetime);
-        console.log('running');
-
             
         }
         

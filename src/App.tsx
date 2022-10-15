@@ -45,7 +45,7 @@ softShadows()
           const radius = 4 + Math.random() * 5
 
           return (
-            <Grave position={[Math.cos(angle) * radius, 0.7 / 2,   Math.sin(angle) * radius]}  rotation={[0, Math.random() - 0.5 , 0]}/>
+            <Grave key={index} position={[Math.cos(angle) * radius, 0.7 / 2,   Math.sin(angle) * radius]}  rotation={[0, Math.random() - 0.5 , 0]}/>
           )
         })
       }
