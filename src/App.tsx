@@ -49,8 +49,8 @@ softShadows()
           )
         })
       }
-      <Model scale={0.017} position={[6, 0, 0]} />
-      <Trees scale={0.015} position={[0, 0, 9]} />
+      {/* <Model scale={0.017} position={[6, 0, 0]} /> */}
+      {/* <Trees scale={0.015} position={[0, 0, 9]} /> */}
       <Fence />
       <ambientLight  intensity={0.15} color={'#1E88E5'}/>
       <directionalLight intensity={0.3} color={'#1E88E5'} position={[4, 1, 0]}/>
